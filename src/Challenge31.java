@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Challenge31 {
     public static void main(String[] args) {
+        System.out.println("create a progrsm thst computr the sum of the digits of an interger");
         System.out.println("enter a number");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
