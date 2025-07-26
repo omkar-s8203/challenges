@@ -4,11 +4,15 @@ floydHalfPyramid(5);
     }
 
     public static void floydHalfPyramid(int n){
-        int temp;
+        int temp = 1;
+
+        //outer loop
         for(int i = 1; i<=n; i++){
+
+
             for(int j =1; j<=i; j++){
-                temp =+1;
-                System.out.print(temp);
+                System.out.print(temp+ " ");
+                 temp++;
             }
             System.out.println();
         }
