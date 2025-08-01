@@ -1,6 +1,6 @@
 public class BinarySearch {
     public static void main(String[] args) {
-        int numbers[] = {1,3,4,5,6,7,8,9,10,12,45,89,98};
+        int numbers[] = {1,3,4,5,6,7,8,9,10,12,45,89,98,65,65};
         int key = 48;
         int index = binarySearch(numbers,key);
         System.out.println("The key is at Index: "+index);
